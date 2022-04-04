@@ -29,3 +29,6 @@
     ```bash
     docker-compose exec web odoo scaffold dataholix-web /mnt/extra-addons
     ```
+
+### Aufruf der Seite nach dem start der compose Anweisung
+- Im Browser https://localhost:8069
