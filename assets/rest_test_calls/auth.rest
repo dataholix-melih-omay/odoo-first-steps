@@ -1,0 +1,9 @@
+# Authorized
+POST http://localhost:8069/api/authtentication
+content-type: multipart/form-data
+
+{
+    "login": "melih.omay@dataholix.de",
+    "pw": "pwd"
+
+}

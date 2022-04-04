@@ -1,0 +1,9 @@
+# System
+.devcontainer
+
+
+# IDE
+.vscode
+
+# secrets
+odoo_pg_pass
