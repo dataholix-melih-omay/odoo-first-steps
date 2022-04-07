@@ -3,13 +3,13 @@
 
 # Meine Erste schritte und Erfahrungen mit Odoo
 - Starten eines neues Projektes vom scratch
-  - Siehe das docker-compose.yml
+  - Siehe das docker-compose.yaml
   - **wichtig:** lege einen file mit dem name **"odoo_pg_pass"** an.
     - Trage einen Passwort in die erste Zeile ein.
   - Einfach beim ersten mal mit "docker-compose up --build" die Anwendung erstellen.
     > für **Apple M1** Maschinen.
     ```bash
-    docker-compose -f docker-compose.yml -f dc-m1.yml
+    docker-compose -f docker-compose.yaml -f dc-m1.yaml
     ```
   - [im browser](http:localhost:http://localhost:8069/) aufrufen
   - und einmal einrichten lassen.
